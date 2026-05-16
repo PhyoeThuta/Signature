@@ -254,18 +254,6 @@ See [frontend/.env.example](./frontend/.env.example) for template.
 
 ---
 
-## 📊 Current Status
-
-✅ **Status:** LIVE on Google Cloud Platform (GCP)
-- **Region:** europe-west1-b (Belgium)
-- **Frontend:** http://104.199.50.165
-- **Deployment Date:** March 25, 2026
-- **Infrastructure:** GKE Kubernetes Cluster with auto-scaling
-
-See [DEPLOYMENT_COMPLETE.md](./DEPLOYMENT_COMPLETE.md) for full deployment details.
-
----
-
 ## 🐛 Troubleshooting
 
 Common issues and solutions: [TROUBLESHOOTING.md](./md/TROUBLESHOOTING.md)
