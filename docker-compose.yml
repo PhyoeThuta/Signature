@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: signature_db
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: signature_db
+      MYSQL_USER: signature_user
+      MYSQL_PASSWORD: signature_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - signature_network
+
+volumes:
+  mysql_data:
+
+networks:
+  signature_network:
+    driver: bridge
