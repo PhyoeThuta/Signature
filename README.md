@@ -2,8 +2,6 @@
 
 A complete web application for collecting digital signatures on forms. Users can register, create forms that need approval, and authorized signers can sign them digitally on an HTML canvas. All data is securely stored in a MySQL database.
 
-**🌍 Live Demo:** http://104.199.50.165 (Deployed on Google Cloud Platform)
-
 ---
 
 ## ✨ Features
